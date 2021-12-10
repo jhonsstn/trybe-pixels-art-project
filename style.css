@@ -10,33 +10,47 @@ h1 {
   width: 50px;
   height: 50px;
   margin: 3px;
+  border: solid 1px black;
+  cursor: pointer;
 }
 
 #color-palette {
   max-width: 230px;
   display: flex;
   margin: auto;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
 
 .black-square {
   background-color: black;
-  border: solid 1px black;
 }
 
 .green-square {
   background-color: green;
-  border: solid 1px black;
 }
 
 .red-square {
   background-color: red;
-  border: solid 1px black;
 }
 
 .blue-square {
   background-color: blue;
-  border: solid 1px black;
+}
+
+#clear-board {
+  display: block;
+  background-color: #04aa6d;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  text-align: center;
+  cursor: pointer;
+  margin: 0px auto 25px;
+  padding: 6px 18px;
+}
+
+#clear-board:hover {
+  background-color: #0b9663;
 }
 
 #pixel-board {
