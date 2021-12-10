@@ -34,6 +34,5 @@ document.getElementById('clear-board').addEventListener('click', () => {
     if (item.style.backgroundColor !== 'white') {
       item.style.backgroundColor = 'white';
     }
-    return;
   });
 });
